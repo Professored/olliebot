@@ -1,2 +1,2 @@
-# olliebot
-The rehosted Olliebot, now under new infrastructure. Mainly kept for deployment reasons.
+# OllieBot.js
+Cute Discord bunny bot powered by async Node.js

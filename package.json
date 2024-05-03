@@ -1,0 +1,38 @@
+{
+  "name": "olliebot.js",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src --out-dir dist --source-maps --presets @babel/env --copy-files",
+    "start": "npm run build && node dist/app.js",
+    "start-ws": "node dist/app.js"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-private-methods": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@discordjs/opus": "^0.3.3",
+    "better-sqlite3": "^5.4.3",
+    "decorator-wrap": "^1.2.4",
+    "discord.js": "^12.4.1",
+    "figlet": "^1.5.0",
+    "google-it": "^1.5.3",
+    "googleapis": "^67.0.0",
+    "libsodium-wrappers": "^0.7.3",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "node-log-rotate": "^0.1.5",
+    "regenerator-runtime": "^0.13.3",
+    "wikijs": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-transform-flow-strip-types": "^7.7.4",
+    "@babel/plugin-transform-parameters": "^7.10.1",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-flow": "^7.8.3",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-es2015-node": "^6.1.1"
+  }
+}
